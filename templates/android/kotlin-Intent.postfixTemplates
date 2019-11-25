@@ -1,5 +1,5 @@
 ## Templates for android.content.Intent ##
 
 .create : create
-         ANY [android.content.Intent]  →  val $arg$ = Intent($arg$, $arg$::class.java)
+         ANY [android.content.Intent]  →  val $intent$ = Intent($context$, $Activity$::class.java)
         
